@@ -1,0 +1,207 @@
+body {
+  background-color: #545454;
+  font-family: 'Assistant', sans-serif;
+  color: #FFFFFF;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+  height: 70px;
+  border-radius: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #FFFFFF;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #D6A212 !important;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #D6A212 !important;
+}
+
+.btn-login {
+  background-color: #D6A212;
+  color: #fff;
+}
+
+.btn-login:hover {
+  color: #fff;
+}
+
+.navbar-toggler {
+  background-color: #D6A212;
+}
+
+.jumbotron {
+  margin-top: -70px;
+  padding: 180px 100px 180px;
+  background-image: url("../images/img.png");
+  background-size: cover;
+}
+
+.jumbotron h1,
+.jumbotron p {
+  color: #fff;
+}
+
+.jumbotron span {
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 22px;
+}
+
+.jumbotron .btn-start {
+  background-color: #D6A212;
+  color: #fff;
+}
+
+.jumbotron .btn-start:hover {
+  color: #fff;
+}
+
+.section-booking {
+  min-height: 540px;
+  min-width: 352px;
+  background: #D6A212;
+  margin-top: -800px;
+  margin-bottom: -230px;
+}
+
+.section-booking .section-booking-heading {
+  margin-top: 150px;
+}
+
+.section-booking .section-booking-heading h2,
+.section-booking .section-booking-heading p {
+  color: #fff;
+}
+
+.section-booking .section-booking-heading h2 {
+  font-weight: bold;
+}
+
+.section-booking-content .section-booking-travel .card-booking {
+  min-height: 380px;
+  background: rgba(101, 101, 101, 0.5);
+  color: #fff;
+  padding: 30px;
+  background-size: cover;
+  margin-top: -550px;
+  margin-bottom: 100px;
+}
+
+.section-booking-content .section-booking-travel .card-booking .travel-booking {
+  font-size: 40px;
+  color: #fff;
+}
+
+.section-booking-content .section-booking-travel .card-booking .travel-button .btn-travel-details {
+  font-size: 20px;
+  background-color: #D6A212;
+  color: #fff;
+}
+
+.section-booking-content .section-booking-travel .card-booking .travel-button .btn-travel-details:hover {
+  background-color: #b88b10;
+  color: #d4d0d0;
+}
+
+.form-control {
+  background-color: rgba(101, 101, 101, 0.7);
+  color: #FFFFFF;
+}
+
+.form-control:active,
+.form-control:focus,
+.form-control:focus:active {
+  border-color: #D6A212;
+  background-color: rgba(101, 101, 101, 0.7);
+  color: #FFFFFF;
+  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px #D6A212;
+          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px #D6A212;
+}
+
+input:not(:placeholder-shown) {
+  background-color: rgba(101, 101, 101, 0.7) !important;
+}
+
+input:placeholder-shown {
+  background-color: rgba(101, 101, 101, 0.7) !important;
+}
+
+.section-category {
+  min-height: 540px;
+  min-width: 352px;
+  background: #D6A212;
+  margin-top: -450px;
+  margin-bottom: -230px;
+}
+
+.section-category .section-category-heading {
+  margin-top: 150px;
+}
+
+.section-category .section-category-heading h2,
+.section-category .section-category-heading p {
+  color: #fff;
+}
+
+.section-category .section-category-heading h2 {
+  font-weight: bold;
+}
+
+.section-category-content .section-category-travel .card-category {
+  min-height: 380px;
+  background: #fff;
+  color: #fff;
+  padding: 30px;
+  background-size: cover;
+  margin-top: -80px;
+  margin-bottom: 100px;
+}
+
+.section-category-content .section-category-travel .card-category .travel-category {
+  font-size: 40px;
+  color: #fff;
+}
+
+.section-category-content .section-category-travel .card-category .travel-button .btn-travel-details {
+  font-size: 20px;
+  background-color: #D6A212;
+  color: #fff;
+}
+
+.section-category-content .section-category-travel .card-category .travel-button .btn-travel-details:hover {
+  color: #fff;
+}
+
+footer {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 4rem;
+}
+
+footer .copyright {
+  margin-bottom: .3rem;
+}
+
+footer .credits {
+  margin-bottom: 0;
+}
+
+footer .credits a {
+  color: #fff;
+}
+/*# sourceMappingURL=main.css.map */
