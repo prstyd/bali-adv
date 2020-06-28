@@ -5,6 +5,6 @@ Simple landing page for travel agent
 
 don't forget to follow me if you like my repo
 
-visit www.prstyd.com follow my IG @prstyd__
+visit www.prstyd.com follow my IG @prstyd97
 
 Thank You
