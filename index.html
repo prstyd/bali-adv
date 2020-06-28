@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Bali ADV</title>
+  <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css" />
+  <link rel="stylesheet" href="frontend/libraries/bootstrap/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="frontend/styles/main.css" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <div class="container">
+    <nav class="row navbar navbar-expand-lg navbar-light bg-dark">
+      <a class="navbar-brand" href="#">
+        <img src="frontend/images/BALI ADV@2x.png" alt="Bali ADV" />
+      </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Menu -->
+      <div class="collapse navbar-collapse" id="navb">
+        <ul class="navbar-nav ml-auto mr-3">
+          <li class="nav-item mx-md-2">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item mx-md-2">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item mx-md-2">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item mx-md-2">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+
+        <!-- Mobile button -->
+        <form class="form-inline d-sm-block d-md-none">
+          <button class="btn btn-login my-2 my-sm-0">
+            Login
+          </button>
+        </form>
+        <!-- Desktop Button -->
+        <form class="form-inline my-2 my-lg-0 d-none d-md-block">
+          <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">
+            Login
+          </button>
+        </form>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Jumbotron -->
+  <section>
+    <div class="jumbotron">
+      <h1>
+        Discover <span>Bali</span>
+        <br />
+        The Land of <span>Paradise</span>
+      </h1>
+      <a href="#" class="btn btn-start px-4 mt-4">
+        FIND OUT MORE
+      </a>
+      <br />
+      <br>
+      <div class="media-social">
+        <p>Follow Us:</p>
+        <a href="#" class="col-2">
+          <img src="frontend/images/facebook-brands@2x.png" alt="" />
+        </a>
+        <a href="#" class="col-2">
+          <img src="frontend/images/instagram-brands@2x.png" alt="" />
+        </a>
+        <a href="#" class="col-2">
+          <img src="frontend/images/twitter-brands@2x.png" alt="" />
+        </a>
+        <a href="#" class="col-2">
+          <img src="frontend/images/youtube-brands@2x.png" alt="" />
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-booking-content" id="bookingContent">
+    <div class="container">
+      <div class="section-booking-travel row justify-content-end">
+        <div class="col-lg-5 col-xl-5 d-none d-lg-block">
+          <div class="card-booking text-center d-flex flex-column">
+            <div class="travel-booking">Find the Adventure</div>
+            <div class="travel-button mt-auto text-left">
+              <form action="">
+                <div class="form-group">
+                  <div class="form-group">
+                    <label for="start">Start</label>
+                    <input type="text" class="form-control" id="start" placeholder="dd/mm/yyyy">
+                  </div>
+                  <div class="form-group">
+                    <label for="end">End</label>
+                    <input type="text" class="form-control" id="end" placeholder="dd/mm/yyyy">
+                  </div>
+                  <div class="form-group">
+                    <label for="people">Number of People</label>
+                    <input type="text" class="form-control" id="people" placeholder="0">
+                  </div>
+                  <button type="submit" class="btn btn-travel-details btn-block">SEARCH</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Category -->
+  <section class="section-category-content" id="categoryContent">
+    <div class="container">
+      <div class="section-category-travel row justify-content-center">
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="card-category text-center d-flex flex-column"
+            style="background-image: url('frontend/images/img-nature@2x.png');">
+            <div class="travel-category">NATURE</div>
+            <div class="travel-button mt-auto">
+              <a href="#" class="btn btn-travel-details px-5">
+                View More
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="card-category text-center d-flex flex-column"
+            style="background-image: url('frontend/images/img-culture@2x.png');">
+            <div class="travel-category">CULTURE</div>
+            <div class="travel-button mt-auto">
+              <a href="#" class="btn btn-travel-details px-5">
+                View More
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="card-category text-center d-flex flex-column"
+            style="background-image: url('frontend/images/img-food@2x.png');">
+            <div class="travel-category">FOOD</div>
+            <div class="travel-button mt-auto">
+              <a href="#" class="btn btn-travel-details px-5">
+                View More
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="card-category text-center d-flex flex-column"
+            style="background-image: url('frontend/images/img-history@2x.png');">
+            <div class="travel-category">HISTORY</div>
+            <div class="travel-button mt-auto">
+              <a href="#" class="btn btn-travel-details px-5">
+                View More
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+<!-- Footer -->
+<footer class="border-top p-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <h4>Creator Contact</h4>
+    </div>
+    <div class="row justify-content-center">
+      <div class="">
+        <a href="https://www.prstyd.com" target="_blank"><span style="color: #D6A212;" class="col-2 fa-2x"><i
+              class="fas fa-globe"></i></span></a>
+        <a href="mailto:prs.adinugroho@gmail.com" target="_blank"><span style="color: #D6A212;" class="col-2 fa-2x"><i
+              class="far fa-envelope"></i></span></a>
+        <a href="https://www.instagram.com/prstyd__" target="_blank"><span style="color: #D6A212;"
+            class="col-2 fa-2x"><i class="fab fa-instagram"></i></span></a>
+        <a href="https://github.com/prstyd" target="_blank"><span style="color: #D6A212;" class="col-2 fa-2x"><i
+              class="fab fa-github"></i></span></a>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div>
+        <p>Created by <b>Prasetyo Adi</b> Copyright &copy; 2020</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="frontend/libraries/retina/retina.js"></script>
+<script src="frontend/libraries/jquery/jquery-3.4.1.min.js"></script>
+<script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+<script src="frontend/libraries/bootstrap/js/all.min.js"></script>
+</body>
+
+</html>
